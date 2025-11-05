@@ -65,7 +65,16 @@ PythonCloudInfra/
 
 ## 🚀 Cómo Ejecutar
 
-### 1. Ejecutar la Simulación Principal
+
+### 1. Ejecutar biblioteca necesaria
+
+Este comando ejecuta una instalacion de una biblioteca externa necesaria:
+
+```bash
+pip3 install --upgrade typing-extensions
+```
+
+### 2. Ejecutar la Simulación Principal
 
 Este comando ejecuta el flujo completo definido en `main.py`, demostrando todas las funcionalidades:
 
@@ -73,7 +82,7 @@ Este comando ejecuta el flujo completo definido en `main.py`, demostrando todas 
 python3 main.py
 ```
 
-### 2. Generar el Archivo Integrador
+### 3. Generar el Archivo Integrador
 
 Este comando utiliza el script `buscar_paquete.py` para consolidar todo el código fuente:
 
