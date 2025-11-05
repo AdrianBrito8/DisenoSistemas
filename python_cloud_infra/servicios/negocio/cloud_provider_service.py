@@ -1,5 +1,6 @@
 """
 Modulo del servicio CloudProviderService.
+(Análogo a 'FincasService')
 
 Maneja la logica de negocio de alto nivel que
 involucra a multiples DataCenters (registros).
@@ -94,6 +95,8 @@ class CloudProviderService:
               f"'{rack_nombre}' (DC {id_datacenter}).")
         return True
 
+    # --- ESTA ES LA ZONA DEL ERROR ---
+    # Aseguramos que el nombre del método sea 'decomisionar_y_archivar'
     def decomisionar_y_archivar(self, tipo_servicio: Type[T]) -> Snapshot[T]:
         """
         Descomisiona (cosecha) TODOS los servicios de un TIPO especifico de
