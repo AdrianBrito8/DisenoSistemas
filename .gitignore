@@ -1,0 +1,17 @@
+# Archivos de Python
+__pycache__/
+*.pyc
+.env
+.venv
+venv/
+
+# Archivos de datos generados por main.py
+data/
+*.dat
+
+# Archivos generados por buscar_paquete.py (¡Lo más importante!)
+**/integrador.py
+**/integradorFinal.py
+
+# Archivos de SO
+.DS_Store
